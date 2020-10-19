@@ -1,0 +1,33 @@
+
+install expo
+sudo npm install expo-cli --global
+
+
+update npm for expo
+sudo npm install -g n
+sudo n latest
+
+
+install android studio on linux
+go to the website and download it
+extract it
+execute studio.sh and follow the instructions
+
+
+improve emulation
+sudo apt-get install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils ia32-libs-multiarch
+
+
+If Android Studio /dev/kvm device permission denied
+sudo apt install qemu-kvm
+sudo adduser <Replace with username> kvm
+sudo chown <Replace with username> /dev/kvm
+
+
+add a desktop shortcut
+in the "welcome to android Studio"
+configure
+create desktop entry
+
+
+
